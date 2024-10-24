@@ -6,10 +6,13 @@ class Person {
 	}
 
 	getName(){
-		return this._name
+		return this._name;
 	}
 	setAge(newage){
 		this._age = age;
+	}
+	getAge(){
+		return this._age;
 	}
 	
 }
